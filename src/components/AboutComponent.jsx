@@ -1,14 +1,12 @@
 import "react";
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+
 import Photo from "../images/profile.png";
 import "../styles/app.css";
 
 const About = () => {
     return (
         <>
-            <Header />
             <div className="about-content">
                 <div className="photo">
                     <img
@@ -44,8 +42,6 @@ const About = () => {
                     </Link>
                 </div>
             </div>
-
-            <Footer />
         </>
     );
 };

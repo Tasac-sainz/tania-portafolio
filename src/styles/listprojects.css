@@ -1,24 +1,33 @@
+.project-title {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px 40px;
+    font-family: "Jost", sans-serif;
+}
 .list-container {
     display: flex;
     flex-wrap: wrap;
     gap: 45px;
 }
+.title-card {
+    display: flex;
+    gap: 30px;
+}
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 520px;
+    width: 85%;
+    height: 100%;
     padding: 20px;
     gap: 10px;
-
     background: linear-gradient(
         to top left,
-        rgb(206, 209, 209),
-        rgb(62, 175, 70)
+        rgb(170, 222, 199),
+        rgb(69, 190, 77)
     );
-
     border-radius: 18px;
-
     box-shadow:
         0 40px 80px rgba(0, 0, 0, 0.25),
         0 15px 30px rgba(0, 0, 0, 0.15),
@@ -26,6 +35,18 @@
     transition: all 0.3s ease;
 }
 
+.nameproj-cont {
+    font-weight: 700;
+    font-style: italic;
+    width: 75%;
+    font-size: 15px;
+}
+.descrip-cont {
+    font-size: 14px;
+}
+.feature-cont {
+    font-size: 14px;
+}
 .listproject-icon {
     width: 20px;
 }
@@ -35,10 +56,43 @@
     padding: 15px 0 15px 0;
 }
 .tech-icon {
-    width: 40px;
+    width: 10%;
     margin-right: 15px;
     padding-left: 15px;
 }
 .website-cont {
-    padding: 0 0 0 30px;
+    width: 25%;
+}
+.git-icon {
+    width: 25%;
+    margin: 0 10px 0 0;
+}
+.project-image {
+    width: 75%;
+    position: relative;
+    z-index: -1;
+}
+@media screen and (min-width: 736px) {
+    .list-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .descrip-cont {
+        font-size: 14px;
+    }
+    .feature-cont {
+        font-size: 14px;
+    }
+    .card {
+        width: 40%;
+    }
+    .website-cont {
+        font-size: 16px;
+    }
+    .nameproj-cont {
+        font-size: 18px;
+    }
+    .tech-icon {
+        height: 50%;
+    }
 }
