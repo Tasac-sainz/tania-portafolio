@@ -1,6 +1,6 @@
 .web-title {
     font-family: "Permanent Marker", sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -20,14 +20,36 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    margin-left: 40px;
-    margin-top: 40px;
+    padding: 0 20px 0 20px;
+    border-radius: 15px;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: white;
+    background-color: rgba(227, 247, 230, 0.883);
+}
+.burger {
+    width: 35px;
+    cursor: pointer;
+}
+
+.nav_links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(227, 247, 230, 0.95);
+    padding: 20px;
+    gap: 20px;
+}
+
+.nav_links.open {
+    display: flex;
+    border-radius: 15px;
+    width: 100px;
 }
 .header_nav {
     text-decoration: none;
@@ -35,6 +57,12 @@
     font-family: "Jost", sans-serif;
     font-size: 15px;
 }
+.burger-nav {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
 .fenix {
     width: 45px;
     height: 45px;
@@ -42,11 +70,11 @@
 .intro_div {
     text-align: center;
     font-style: normal;
-    width: 450px;
+    width: 75%;
     margin: 0 auto;
 }
 .icons-contain {
-    padding: 80px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -66,17 +94,21 @@
     color: white;
     font-size: 12px;
     font-weight: 600;
-}
-.a-footer {
-    color: white;
+    border-radius: 15px;
 }
 .p-footer {
     margin: 0;
+    padding: 10px;
+}
+.a-footer {
+    color: white;
+    padding-top: 10px;
 }
 .about-content {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-bottom: 100px;
     gap: 20px;
     padding-left: 50px;
@@ -88,4 +120,47 @@
 .text-link {
     color: #268919;
     text-decoration: underline;
+}
+
+.profile-pic {
+    border-radius: 100px;
+    width: 180px;
+    height: 190px;
+}
+
+@media screen and (min-width: 736px) {
+    .web-title {
+        font-size: 50px;
+    }
+    .intro_div {
+        width: 50%;
+    }
+
+    .burger-nav {
+        display: none;
+    }
+
+    .header_nav {
+        text-decoration: none;
+        color: black;
+        font-family: "Jost", sans-serif;
+        font-size: 15px;
+    }
+    .burger {
+        display: none;
+    }
+    a.header_nav {
+        width: max-content;
+    }
+    .nav_links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        width: auto;
+        gap: 100px;
+    }
+    .icons-contain {
+        padding: 70px;
+    }
 }

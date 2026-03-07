@@ -29,8 +29,16 @@
 .listproject-icon {
     width: 20px;
 }
+.techs-cont {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+}
 .tech-icon {
     width: 40px;
     margin-right: 15px;
     padding-left: 15px;
+}
+.website-cont {
+    padding: 0 0 0 30px;
 }

@@ -55,6 +55,15 @@ const ListProjects = () => {
             techs: ["react", "node", "postman", "mysql", "css", "git"],
             web: "https://cool-projects.onrender.com",
         },
+        {
+            nameproj: "Buscador en API de Personajes de Harry Potter",
+            description:
+                "Este proyecto se orienta a la búsqueda de personajes de Harry Potter y visualización de cada persona en detalle a través de una API Rest. Desarrollada con React.",
+            features:
+                "Listado de personajes, búsqueda por tres posibles filtros: nombre, casa y género, limpieza de filtros y página de detalle de cada personaje.",
+            techs: ["react", "api", "css", "git"],
+            web: "http://tasac-sainz.github.io/buscador_harry-potter/",
+        },
     ];
     return (
         <>

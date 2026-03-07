@@ -2,7 +2,7 @@ import "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Photo from "../images/photoexam.png";
+import Photo from "../images/profile.png";
 import "../styles/app.css";
 
 const About = () => {
@@ -11,7 +11,11 @@ const About = () => {
             <Header />
             <div className="about-content">
                 <div className="photo">
-                    <img src={Photo} alt="profile photo" />
+                    <img
+                        src={Photo}
+                        alt="profile photo"
+                        className="profile-pic"
+                    />
                 </div>
                 <div className="my-descr">
                     ¡Hola! Soy Tania, la responsable de Fénix Web Solutions.{" "}
@@ -39,6 +43,7 @@ const About = () => {
                     </Link>
                 </div>
             </div>
+
             <Footer />
         </>
     );
