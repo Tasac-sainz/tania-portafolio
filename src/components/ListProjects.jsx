@@ -72,63 +72,65 @@ const ListProjects = () => {
     return (
         <>
             <h1 className="project-title">Algunos de mis trabajos...</h1>
-            <ul className="list-container">
-                {projects.map((project, i) => (
-                    <li className="card" key={i}>
-                        <div className="title-card">
-                            <div className="nameproj-cont">
-                                {project.nameproj}
+            <div className="scroll-container">
+                <ul className="list-container">
+                    {projects.map((project, i) => (
+                        <li className="card" key={i}>
+                            <div className="title-card">
+                                <div className="nameproj-cont">
+                                    {project.nameproj}
+                                </div>
+                                <div className="website-cont">
+                                    <a
+                                        href={project.web}
+                                        target="_blank"
+                                        className="project-link"
+                                    >
+                                        <img
+                                            src={WebIcon}
+                                            alt="ir al proyecto"
+                                            className="git-icon"
+                                        />
+                                    </a>
+                                    <a
+                                        href={project.repo}
+                                        target="_blank"
+                                        className="project-link"
+                                    >
+                                        <img
+                                            src={GitIcon}
+                                            alt="ir a repo en GitHub"
+                                            className="git-icon"
+                                        />
+                                    </a>
+                                </div>
                             </div>
-                            <div className="website-cont">
-                                <a
-                                    href={project.web}
-                                    target="_blank"
-                                    className="project-link"
-                                >
-                                    <img
-                                        src={WebIcon}
-                                        alt="ir al proyecto"
-                                        className="git-icon"
-                                    />
-                                </a>
-                                <a
-                                    href={project.repo}
-                                    target="_blank"
-                                    className="project-link"
-                                >
-                                    <img
-                                        src={GitIcon}
-                                        alt="ir a repo en GitHub"
-                                        className="git-icon"
-                                    />
-                                </a>
+                            <div className="descrip-cont">
+                                {project.description}
                             </div>
-                        </div>
-                        <div className="descrip-cont">
-                            {project.description}
-                        </div>
-                        <div className="feature-cont">
-                            <img
-                                src={FeatureIcon}
-                                alt="Funcionalidades"
-                                className="listproject-icon"
-                            />{" "}
-                            {project.features}
-                        </div>
-                        <div className="techs-cont">
-                            {project.techs &&
-                                project.techs.map((tech, index) => (
-                                    <img
-                                        key={index}
-                                        src={techsIcons[tech]}
-                                        alt={tech}
-                                        className="tech-icon"
-                                    />
-                                ))}
-                        </div>
-                    </li>
-                ))}
-            </ul>
+                            <div className="feature-cont">
+                                <img
+                                    src={FeatureIcon}
+                                    alt="Funcionalidades"
+                                    className="listproject-icon"
+                                />{" "}
+                                {project.features}
+                            </div>
+                            <div className="techs-cont">
+                                {project.techs &&
+                                    project.techs.map((tech, index) => (
+                                        <img
+                                            key={index}
+                                            src={techsIcons[tech]}
+                                            alt={tech}
+                                            className="tech-icon"
+                                        />
+                                    ))}
+                            </div>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </>
     );
 };

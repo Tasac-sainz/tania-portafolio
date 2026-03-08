@@ -4,7 +4,7 @@ import ListProjects from "./ListProjects";
 import Footer from "./Footer";
 import "../styles/app.css";
 
-const Projects = () => {
+const ProjectsComponent = () => {
     return (
         <>
             <ListProjects />
@@ -12,4 +12,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default ProjectsComponent;

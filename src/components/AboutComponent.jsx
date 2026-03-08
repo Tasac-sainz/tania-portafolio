@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Photo from "../images/profile.png";
 import "../styles/app.css";
 
-const About = () => {
+const AboutComponent = () => {
     return (
         <>
             <div className="about-content">
@@ -46,4 +46,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutComponent;

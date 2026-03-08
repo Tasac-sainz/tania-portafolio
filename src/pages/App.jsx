@@ -6,12 +6,19 @@ import Contact from "./Contact";
 
 function App() {
     return (
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <>
+            <div className="background">
+                <div className="blob blob1"></div>
+                <div className="blob blob2"></div>
+                <div className="blob blob3"></div>
+            </div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+        </>
     );
 }
 
