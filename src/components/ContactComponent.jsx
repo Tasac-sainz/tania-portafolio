@@ -18,9 +18,9 @@ const ContactComponent = () => {
                     <italic>Fenix Web Solutions</italic>
                 </strong>{" "}
                 {""}
-                estamos para ayudarte a diseñar la web que tu negocio necesita,
-                envíanos tus dudas, propuestas, etc., y enseguida contactaremos
-                contigo...
+                estamos para ayudarte a diseñar la web que tu proyecto necesita,
+                envíanos tus dudas, propuestas, etc., y enseguida nos pondremos
+                en contacto...
             </p>
 
             <form onSubmit={handleSubmit} className="contact-form">
@@ -54,7 +54,7 @@ const ContactComponent = () => {
                 </div>
 
                 <div className="message-data">
-                    <label htmlFor="message" className="label">
+                    <label htmlFor="message" className="label messlabel">
                         Mensaje
                     </label>
                     <textarea

@@ -49,9 +49,16 @@ const Header = () => {
                         Contacto
                     </Link>
                 </div>
-                <Link to="/contact">
-                    <img src={Fenix} alt="logo fenix" className="fenix" />
-                </Link>
+                <a
+                    href="https://linkedin.com/in/tania-sainz-developer"
+                    target="_blank"
+                >
+                    <img
+                        src={Fenix}
+                        alt="visitar perfil en Linked In"
+                        className="fenix"
+                    />
+                </a>
             </nav>
             <h1 className="web-title">Fenix Web Solutions</h1>
             <h2 className="web-subtitle">Tu página web, sin complicaciones</h2>

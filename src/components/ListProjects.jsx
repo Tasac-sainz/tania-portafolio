@@ -3,7 +3,6 @@ import FeatureIcon from "../images/feature-icon.png";
 import JSIcon from "../images/js-icon.png";
 import ApiIcon from "../images/api-icon.png";
 import SassIcon from "../images/sass-icon.png";
-import FlexIcon from "../images/flexbox-icon.png";
 import GitIcon from "../images/github-icon.png";
 import WebIcon from "../images/web.png";
 import Node from "../images/node-icon.png";
@@ -19,7 +18,6 @@ const ListProjects = () => {
         js: JSIcon,
         api: ApiIcon,
         sass: SassIcon,
-        flex: FlexIcon,
         react: React,
         node: Node,
         postman: Postman,
@@ -34,7 +32,7 @@ const ListProjects = () => {
                 "Web de ecommerce desarrollada con JavaScript puro con diseño responsive, apto para el uso de distintos dispositivos.",
             features:
                 "Productos de API Rest, opción de búsqueda y reset, gestión completa de carrrito de compra (añadir, aumentar, disminuir, vaciar...), suma de importe total, almacenamiento local del cliente...",
-            techs: ["js", "api", "sass", "flex"],
+            techs: ["js", "api", "sass", "css"],
             web: "https://tasac-sainz.github.io/tienda-online-all-for-you/",
             repo: "https://github.com/Tasac-sainz/tienda-online-all-for-you",
         },

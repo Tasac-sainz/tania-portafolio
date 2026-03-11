@@ -2,7 +2,7 @@
     font-style: italic;
     font-size: 20px;
     font-weight: 500;
-    margin: 0 0 20px 40px;
+    margin: 0 0 20px 20px;
     font-family: "Jost", sans-serif;
 }
 .scroll-container {
@@ -104,5 +104,9 @@
     }
     .list-container {
         justify-content: center;
+    }
+    .project-title {
+        margin: 0 0 20px 100px;
+        font-size: 30px;
     }
 }

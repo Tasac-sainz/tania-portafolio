@@ -265,6 +265,7 @@
     }
     .my-descr {
         font-size: 16px;
+        padding: 0 250px 0 250px;
     }
     .about-content {
         padding: 0 0 100px 50px;
