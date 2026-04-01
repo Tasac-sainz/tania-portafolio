@@ -18,7 +18,7 @@ trabajo en equipo, no tengo dificultades para coordinarme con otr@s dev´s...
 
 # Otros datos... 
 
-Además, también soy Psicóloga desde hace más de 15 años, de manera que mis habildiades de escucha y comunicación están garantizadas!
+Además, también soy Psicóloga desde hace más de 15 años, de manera que mis habilidades de escucha y comunicación están garantizadas!
 
 Espero que disfrutes de mi web y pronto podamos conectar!
 Visita mi perfil en Linked In: www.linkedin.com/in/tania-sainz-developer
