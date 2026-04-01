@@ -154,4 +154,7 @@
         margin: 0 0 20px 100px;
         font-size: 30px;
     }
+    .proj-img {
+        width: 60%;
+    }
 }
