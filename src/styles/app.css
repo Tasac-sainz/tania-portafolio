@@ -168,8 +168,11 @@
 
 .programming {
     display: none;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 50px;
+    max-width: 1077px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer {
