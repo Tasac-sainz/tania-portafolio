@@ -27,9 +27,10 @@ const AboutComponent = () => {
                     </p>
                     <p className="hidden-in-responsive">
                         Manejo tecnologías modernas dentro del universo tech
-                        (React, JavaScript, Flexbox...) para asegurarnos de que
-                        tu web además de atractiva, tenga todas las
-                        funcionalidades que necesitas.
+                        (React, NodeJS, Express, MySQL, JavaScript Vanilla,
+                        Flexbox...) para asegurarnos de que tu web además de
+                        atractiva, tenga todas las funcionalidades que
+                        necesitas.
                     </p>
                     Visita {""}
                     <Link to="/projects" className="text-link">
