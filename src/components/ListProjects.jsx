@@ -14,6 +14,7 @@ import CoolImg from "../images/cool-projects.png";
 import EcomImg from "../images/ecommerce-page.png";
 import HarryImg from "../images/harry-page.png";
 import RecipesImg from "../images/recipes-page.png";
+import TechtronicImg from "../images/techtronic-page.png";
 import "../styles/listprojects.css";
 
 const ListProjects = () => {
@@ -52,6 +53,18 @@ const ListProjects = () => {
             web: "https://github.com/Tasac-sainz/recetas-four-for-love.git",
             repo: "https://github.com/Tasac-sainz/recetas-four-for-love",
             pic: RecipesImg,
+        },
+        {
+            nameproj: "Blog Techtronic",
+            resume: "Proyecto Full Stack de Blog Tecnológico",
+            description:
+                "Web de blog tecnológico desarrollada con React y NodeJS; a través de una Base de Datos MySQL, se sirven las noticias de la Base de Datos al frontend y cuenta con un widget de clima que gracias a un servicio API, ofrece la temperatura y clima en la ubicación actual además de permitir la búsqueda del clima en cualquier ciudad del mundo.",
+            features:
+                "Búsqueda del clima en cualquier ciudad del mundo y obtención de información meteorológica en tiempo real, consulta de las noticas publicadas en el blog.",
+            techs: ["react", "node", "postman", "mysql", "css", "api", "js"],
+            web: "https://tasac-sainz.github.io/techtronic_blog/",
+            repo: "https://github.com/Tasac-sainz/techtronic_blog",
+            pic: TechtronicImg,
         },
         {
             nameproj: "Cool Projects",
