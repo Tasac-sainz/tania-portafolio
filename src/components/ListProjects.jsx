@@ -50,7 +50,7 @@ const ListProjects = () => {
             features:
                 "Registro e inicio de sesión, creacción y consulta de recetas, almacenamiento local de usuario.",
             techs: ["react", "node", "postman", "mysql", "css"],
-            web: "https://github.com/Tasac-sainz/recetas-four-for-love.git",
+            web: "https://tasac-sainz.github.io/recetas-four-for-love/",
             repo: "https://github.com/Tasac-sainz/recetas-four-for-love",
             pic: RecipesImg,
         },
