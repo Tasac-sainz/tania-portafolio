@@ -10,11 +10,13 @@ import Postman from "../images/postman-icon.png";
 import React from "../images/react-icon.png";
 import CSSicon from "../images/css-icon.png";
 import MySQL from "../images/mysql-icon.png";
+import WordPress from "../images/wordpress-icon.png";
 import CoolImg from "../images/cool-projects.png";
 import EcomImg from "../images/ecommerce-page.png";
 import HarryImg from "../images/harry-page.png";
 import RecipesImg from "../images/recipes-page.png";
 import TechtronicImg from "../images/techtronic-page.png";
+import BeautycoachImg from "../images/beautycoach-page.png";
 import "../styles/listprojects.css";
 
 const ListProjects = () => {
@@ -27,9 +29,22 @@ const ListProjects = () => {
         postman: Postman,
         css: CSSicon,
         mysql: MySQL,
+        wp: WordPress,
     };
 
     const projects = [
+        {
+            nameproj: "Beauty Coach",
+            resume: "Web de servicios de belleza, estética y maquillaje para bodas y eventos, desarrollada con WordPress y diseño responsive.",
+            description:
+                "Web de servicios de belleza desarrollada con WordPress y diseño responsive, apto para el uso de distintos dispositivos. Con animaciones y efectos de transición",
+            features:
+                "Formulario de contacto, galería de imágenes, sección de servicios, sección de reseñas.",
+            techs: ["wp", "css"],
+            web: "https://beatrizbeautycoach.com/",
+            repo: "",
+            pic: BeautycoachImg,
+        },
         {
             nameproj: "All for You",
             resume: "e-commerce",
