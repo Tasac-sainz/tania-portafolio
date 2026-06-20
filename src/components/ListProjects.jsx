@@ -37,9 +37,9 @@ const ListProjects = () => {
             nameproj: "Beauty Coach",
             resume: "Web de servicios de belleza, estética y maquillaje para bodas y eventos, desarrollada con WordPress y diseño responsive.",
             description:
-                "Web de servicios de belleza desarrollada con WordPress y diseño responsive, apto para el uso de distintos dispositivos. Con animaciones y efectos de transición",
+                "Web de servicios de belleza desarrollada con WordPress y diseño responsive, apto para el uso de distintos dispositivos. Con animaciones y efectos de transición.",
             features:
-                "Formulario de contacto, galería de imágenes, sección de servicios, sección de reseñas.",
+                "Formulario de contacto, galería de imágenes, sección de servicios, sección de reseñas, sección de contacto con mapa, páginas de aviso legal, política de cookies y política de privacidad.",
             techs: ["wp", "css"],
             web: "https://beatrizbeautycoach.com/",
             repo: "",
