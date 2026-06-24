@@ -172,7 +172,9 @@
         font-size: 18px;
     }
     .tech-icon {
-        height: 70%;
+        width: 7%;
+        height: auto;
+        margin-top: 20px;
     }
     .list-container {
         justify-content: center;
