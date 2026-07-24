@@ -48,7 +48,7 @@ const ListProjects = () => {
         },
         {
             nameproj: "Beauty Coach",
-            resume: "Web de servicios de estéticos en WordPress",
+            resume: "Web de servicios estéticos en WordPress",
             description:
                 "Web de servicios de belleza desarrollada con WordPress y diseño responsive, apto para el uso de distintos dispositivos. Con animaciones y efectos de transición.",
             features:
