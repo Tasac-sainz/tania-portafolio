@@ -36,7 +36,7 @@ const ListProjects = () => {
     const projects = [
         {
             nameproj: "Somos Familia",
-            resume: "Web divulgativa sobre perros y gatos y servicios veterinario de la zona norte de Madrid",
+            resume: "Web divulgativa sobre perros y gatos y servicios veterinarios de confianza en la zona norte de Madrid",
             description:
                 "Web informativa realizada con Vanilla JavaScript puro, con consumo de API y enlaces a otras páginas web de interés.",
             features:
