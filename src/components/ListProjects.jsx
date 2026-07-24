@@ -17,6 +17,7 @@ import HarryImg from "../images/harry-page.png";
 import RecipesImg from "../images/recipes-page.png";
 import TechtronicImg from "../images/techtronic-page.png";
 import BeautycoachImg from "../images/beautycoach-page.png";
+import FamiliaImg from "../images/somos_familia.png";
 import "../styles/listprojects.css";
 
 const ListProjects = () => {
@@ -33,6 +34,18 @@ const ListProjects = () => {
     };
 
     const projects = [
+        {
+            nameproj: "Somos Familia",
+            resume: "Web divulgativa sobre perros y gatos y servicios veterinario de la zona norte de Madrid",
+            description:
+                "Web informativa realizada con Vanilla JavaScript puro, con consumo de API y enlaces a otras páginas web de interés.",
+            features:
+                "Formulario de contacto, buscador de razas de perros con descripciones de carácter e imágenes, generador de imágenes de gatos a través de una API.",
+            techs: ["js", "css", "api"],
+            web: "https://tasac-sainz.github.io/somosfamilia/",
+            repo: "https://github.com/Tasac-sainz/somosfamilia",
+            pic: FamiliaImg,
+        },
         {
             nameproj: "Beauty Coach",
             resume: "Web de servicios de estéticos en WordPress",
