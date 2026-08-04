@@ -165,6 +165,12 @@
 .icon-text {
     margin: 0;
 }
+.projects-text {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 50px auto;
+    line-height: 30px;
+}
 
 .programming {
     display: none;

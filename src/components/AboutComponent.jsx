@@ -26,7 +26,7 @@ const AboutComponent = () => {
                         ¡Hola! Soy Tania, la responsable de Fénix Web Solutions.
                     </p>
                     <p>
-                        No sólo programo tu web en React o WordPress; entiendo
+                        No sólo programo tu web en React o WordPress: entiendo
                         cómo piensa tu cliente ideal. Con más de 15 años de
                         experiencia en psicología, aplico principios de
                         comportamiento humano y diseño UX para que las visitas
