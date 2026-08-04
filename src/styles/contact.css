@@ -36,7 +36,7 @@
     border-radius: 5px;
     border-color: rgb(42, 177, 35);
     background-color: rgba(85, 235, 130, 0.359);
-    width: min-content;
+    width: max-content;
     align-self: center;
     font-weight: normal;
     font-family: "Verdana";
