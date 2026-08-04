@@ -1,6 +1,7 @@
 import "react";
 import Header from "../components/Header";
 import ListProjects from "../components/ListProjects";
+import BtnContact from "../components/BtnContact";
 import Footer from "../components/Footer";
 import "../styles/app.css";
 
@@ -16,6 +17,7 @@ const Projects = () => {
                 nuestro <i>escaparate</i>?
             </p>
             <ListProjects />
+            <BtnContact />
             <Footer />
         </>
     );

@@ -2,6 +2,7 @@ import "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import BtnContact from "../components/BtnContact";
 import Photo from "../images/profile.png";
 import "../styles/app.css";
 
@@ -10,12 +11,15 @@ const About = () => {
         <>
             <Header />
             <div className="about-content">
-                <div className="photo">
-                    <img
-                        src={Photo}
-                        alt="profile photo"
-                        className="profile-pic"
-                    />
+                <div className="photo-btn">
+                    <div className="photo">
+                        <img
+                            src={Photo}
+                            alt="profile photo"
+                            className="profile-pic"
+                        />
+                    </div>
+                    <BtnContact />
                 </div>
                 <div className="my-descr">
                     <p>
