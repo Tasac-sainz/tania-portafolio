@@ -17,13 +17,20 @@ const AboutComponent = () => {
                 </div>
                 <div className="my-descr">
                     <p>
+                        <strong>
+                            Código limpio + Psicología = Webs que convierten las
+                            visitas en clientes.
+                        </strong>
+                    </p>
+                    <p>
                         ¡Hola! Soy Tania, la responsable de Fénix Web Solutions.
                     </p>
                     <p>
-                        Este proyecto nace de mi pasión por el desarrollo web,
-                        el diseño y el márketing digital; además, soy psicóloga
-                        desde hace 15 años por lo que sé bien cómo llegar a tus
-                        clientes...
+                        No sólo programo tu web en React o WordPress; entiendo
+                        cómo piensa tu cliente ideal. Con más de 15 años de
+                        experiencia en psicología, aplico principios de
+                        comportamiento humano y diseño UX para que las visitas
+                        que entran a tu web no se vayan sin contactarte.
                     </p>
                     <p className="hidden-in-responsive">
                         Manejo tecnologías modernas dentro del universo tech
@@ -31,6 +38,20 @@ const AboutComponent = () => {
                         Flexbox...) para asegurarnos de que tu web además de
                         atractiva, tenga todas las funcionalidades que
                         necesitas.
+                    </p>
+                    <p>
+                        <strong>
+                            <italic>
+                                ¿Y ahora que ya tengo mi web... ¿Qué sigue?
+                            </italic>
+                        </strong>
+                        <br></br>
+                        No te preocupes, no te dejo sol@. Analizo el
+                        comportamiento de tus clientes y optimizo tu web para
+                        que siempre esté al día y siga aumentando tu conversión
+                        (estadísticas de uso y visitas con GA4 y Clarity para
+                        analizar los mapas de calor, dead clicks, rage clicks,
+                        etc).
                     </p>
                     Visita {""}
                     <Link to="/projects" className="text-link">

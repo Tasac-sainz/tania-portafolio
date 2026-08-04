@@ -220,6 +220,8 @@
 .text-link {
     color: #268919;
     text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .profile-pic {

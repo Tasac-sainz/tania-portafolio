@@ -80,7 +80,7 @@ const Contact = () => {
                             disabled={state.submitting}
                             className="submit-btn"
                         >
-                            Enviar
+                            ¡Manos a la obra!
                         </button>
                     </form>
                 </>
