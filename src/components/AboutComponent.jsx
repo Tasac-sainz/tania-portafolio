@@ -1,6 +1,5 @@
 import "react";
 import { Link } from "react-router-dom";
-
 import Photo from "../images/profile.png";
 import "../styles/app.css";
 
@@ -8,17 +7,19 @@ const AboutComponent = () => {
     return (
         <>
             <div className="about-content">
-                <h2>
-                    <i>¿Quién es Fenix?</i>
-                </h2>
-                <div className="photo">
+                {/* <div className="photo photo-home">
                     <img
                         src={Photo}
                         alt="profile photo"
-                        className="profile-pic"
+                        className="profile-pic "
                     />
-                </div>
+                </div> */}
                 <div className="my-descr">
+                    <h2 className="title-about-home">
+                        <Link to="/about">
+                            <i>¿Quién es Fenix?</i>
+                        </Link>
+                    </h2>
                     <p className="green-text">
                         <strong>
                             Código limpio + Psicología = Webs que convierten las

@@ -233,13 +233,16 @@
     color: #268919;
     font-weight: 500;
 }
+.title-about-home {
+    margin: 20px auto;
+    text-align: center;
+}
 
 .profile-pic {
     border-radius: 100px;
     width: 120px;
     height: 165px;
 }
-
 .submit-btn.in-all {
     display: block;
     margin: 0 auto 30px auto;
