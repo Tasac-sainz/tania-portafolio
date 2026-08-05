@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 const Intro = () => {
     return (
         <div className="intro_div">
-            Webs modernas que no sólo se ven bien:{" "}
-            <strong>están diseñadas para vender</strong>. <br></br>
+            <p>
+                Webs modernas que no sólo se ven bien:
+                <span className="green-text">
+                    <strong> están diseñadas para vender</strong>.
+                </span>
+            </p>
             <br></br>
             En Fenix Web Solutions creamos la web perfecta para tí con las
             tecnologías más modernas y que mejor se adaptan a tu idea. <br></br>{" "}

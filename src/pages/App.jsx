@@ -3,10 +3,12 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import ScrollToTop from "../components/ScrollToTop";
 
 function App() {
     return (
         <>
+            <ScrollToTop />
             <div className="background">
                 <div className="blob blob1"></div>
                 <div className="blob blob2"></div>

@@ -36,7 +36,7 @@ const ListProjects = () => {
     const projects = [
         {
             nameproj: "Somos Familia",
-            resume: "Web divulgativa sobre perros y gatos y servicios veterinarios de confianza en la zona norte de Madrid",
+            resume: "Diseño completo de web divulgativa sobre perros y gatos y servicios veterinarios en la zona norte de Madrid",
             description:
                 "Web informativa realizada con Vanilla JavaScript puro, con consumo de API y enlaces a otras páginas web de interés.",
             features:
@@ -62,7 +62,7 @@ const ListProjects = () => {
             nameproj: "All for You",
             resume: "e-commerce",
             description:
-                "Web de ecommerce desarrollada con JavaScript puro con diseño responsive, apto para el uso de distintos dispositivos.",
+                "Diseño y programación de web de ecommerce desarrollada con JavaScript puro con diseño responsive, apto para el uso de distintos dispositivos.",
             features:
                 "Productos de API Rest, opción de búsqueda y reset, gestión completa de carrrito de compra (añadir, aumentar, disminuir, vaciar...), suma de importe total, almacenamiento local del cliente...",
             techs: ["js", "api", "sass", "css"],
@@ -74,7 +74,7 @@ const ListProjects = () => {
             nameproj: "Recetas Four for Love",
             resume: "Base de Datos de Recetas con autenticación de usuarios",
             description:
-                "Web con recetas familiares en las que los usuarios pueden registrarse, añadir nuevas recetas y consultar sus propias recetas desde cualquier lugar del mundo. Desarrollada con React y NodeJS.",
+                "Diseño y programación desde cero de esta potencial plataforma web con recetas familiares en las que los usuarios pueden registrarse, añadir nuevas recetas y consultar sus propias recetas desde cualquier lugar del mundo. Desarrollada con React y NodeJS.",
             features:
                 "Registro e inicio de sesión, creacción y consulta de recetas, almacenamiento local de usuario.",
             techs: ["react", "node", "postman", "mysql", "css"],
@@ -121,7 +121,10 @@ const ListProjects = () => {
     ];
     return (
         <>
-            <h1 className="project-title">Algunos de mis trabajos...</h1>
+            <h2 className="project-title">
+                {" "}
+                <i>Algunos de mis trabajos...</i>
+            </h2>
 
             <div className="scroll-container">
                 <ul className="list-container">

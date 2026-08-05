@@ -28,19 +28,21 @@ const About = () => {
                     <p>
                         Este proyecto nace de mi pasión por el desarrollo web,
                         el diseño y el márketing digital. <br></br>
-                        Soy psicóloga y me encanta la tecnología, por eso decidí
-                        unir ambas pasiones y crear webs que no sólo se vean
-                        bien, sino que estén diseñadas para vender. <br></br>
+                        Soy psicóloga desde hace más de 15 años y me encanta la
+                        tecnología, por eso decidí unir ambas pasiones y crear
+                        webs que no sólo se vean bien, sino que estén diseñadas
+                        para vender. <br></br>
                         <br></br>
                         Impulsar tu negocio y ayudarte a conseguir tus objetivos
-                        es mi prioridad. <br></br>
+                        es mi prioridad.
                         <br></br>{" "}
                     </p>
-                    <p className="hidden-in-responsive">
-                        Manejo tecnologías modernas de desarrollo web (React,
-                        JavaScript, Flexbox...) para asegurarnos de que tu web
-                        además de atractiva, tenga todas las funcionalidades que
-                        necesitas y se adapte a cualquier dispositivo. <br></br>
+                    <p className="about-tech">
+                        Utilizamos tecnologías modernas de desarrollo web
+                        (React, JavaScript, Flexbox...) para asegurarnos de que
+                        tu web además de atractiva, tenga todas las
+                        funcionalidades que necesitas y se adapte a cualquier
+                        dispositivo. <br></br>
                         Con GA4 y otras herramientas de analítica web,
                         monitorizamos el comportamiento de tus clientes para que
                         tu web esté siempre al día y en continua mejora.{" "}

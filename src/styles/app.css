@@ -207,7 +207,7 @@
 }
 .about-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 60px;
@@ -228,6 +228,10 @@
     text-decoration: underline;
     font-weight: 600;
     font-size: 20px;
+}
+.green-text {
+    color: #268919;
+    font-weight: 500;
 }
 
 .profile-pic {
