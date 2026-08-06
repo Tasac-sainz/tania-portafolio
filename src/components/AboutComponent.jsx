@@ -34,9 +34,9 @@ const AboutComponent = () => {
                         que las visitas que entran a tu web no se vayan sin
                         contactarte.
                     </p>
-                    Visita {""}
+                    Visita los {""}
                     <Link to="/projects" className="text-link">
-                        mis proyectos
+                        proyectos
                     </Link>{" "}
                     {""}y verás todo lo que podemos hacer; Tú pones la idea y
                     yo, tu web. {""}

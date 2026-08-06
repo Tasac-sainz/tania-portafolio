@@ -61,9 +61,9 @@ const ServicesIcon = () => {
                     </div>
                     <div className="service-back">
                         <p>
-                            Si ya tienes tu web, puedo ayudarte a optimizarla y
-                            analizar su rendimiento para mejorar la experiencia
-                            del usuario y aumentar las conversiones.
+                            Si ya tienes tu web, te ayudamos a optimizarla y
+                            analizamos su rendimiento para mejorar la
+                            experiencia del usuario y aumentar las conversiones.
                         </p>
                     </div>
                 </div>

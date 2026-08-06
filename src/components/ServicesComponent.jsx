@@ -9,7 +9,7 @@ const ServicesComponent = () => {
                 </h2>
                 <p className="green-text">
                     <strong>
-                        Desarrollo web a medida en React y WordPress, con diseño
+                        Desarrollo web a medida en React o WordPress, con diseño
                         UX/UI optimizado para la conversión de visitas en
                         clientes.
                     </strong>
@@ -32,8 +32,8 @@ const ServicesComponent = () => {
                         </strong>
                     </p>
                     <p>
-                        No te preocupes, no te dejamos sol@. Analizo el
-                        comportamiento de tus clientes y optimizo tu web para
+                        No te preocupes, no te dejamos sol@. Analizamos el
+                        comportamiento de tus clientes y optimizamos tu web para
                         que siempre esté al día y siga aumentando tu conversión
                         (estadísticas de uso y visitas con GA4 y Clarity para
                         analizar los mapas de calor, dead clicks, rage clicks,
