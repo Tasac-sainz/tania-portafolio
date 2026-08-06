@@ -16,7 +16,7 @@ const ServicesIcon = () => {
                             alt="web design"
                             className="service-img"
                         />
-                        <h3>Diseño web</h3>
+                        <h3>Creación de Página Web</h3>
                     </div>
                     <div className="service-back">
                         <p>
@@ -36,13 +36,13 @@ const ServicesIcon = () => {
                             alt="CRO design"
                             className="service-img"
                         />
-                        <h3>Optimización CRO</h3>
+                        <h3>Diseño + Mantenimiento + Optimización CRO</h3>
                     </div>
                     <div className="service-back">
                         <p>
-                            Analizo el comportamiento de tus clientes y optimizo
-                            tu web para que siempre esté al día y siga
-                            aumentando tu conversión.
+                            Servicio completo: incluye diseño inicial,
+                            mantenimiento y optimización para mejorar la
+                            experiencia del usuario y aumentar las conversiones.
                         </p>
                     </div>
                 </div>
@@ -57,13 +57,13 @@ const ServicesIcon = () => {
                             alt="CRO analytics"
                             className="service-img"
                         />
-                        <h3>Analytics CRO</h3>
+                        <h3>Optimización y análisis web</h3>
                     </div>
                     <div className="service-back">
                         <p>
-                            Utilizo herramientas de análisis para medir el
-                            rendimiento de tu web y tomar decisiones informadas
-                            sobre cómo mejorarla.
+                            Si ya tienes tu web, puedo ayudarte a optimizarla y
+                            analizar su rendimiento para mejorar la experiencia
+                            del usuario y aumentar las conversiones.
                         </p>
                     </div>
                 </div>

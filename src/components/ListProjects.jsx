@@ -1,4 +1,5 @@
 import "react";
+import { Link } from "react-router-dom";
 import FeatureIcon from "../images/feature-icon.png";
 import JSIcon from "../images/js-icon.png";
 import ApiIcon from "../images/api-icon.png";
@@ -123,7 +124,9 @@ const ListProjects = () => {
         <>
             <h2 className="project-title">
                 {" "}
-                <i>Algunos de mis trabajos...</i>
+                <Link to="/projects">
+                    <i>Algunos de mis trabajos...</i>
+                </Link>
             </h2>
 
             <div className="scroll-container">

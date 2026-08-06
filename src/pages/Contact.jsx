@@ -12,7 +12,10 @@ const Contact = () => {
         <>
             <Header />
             {state.succeeded && (
-                <p className="thanks">¡Gracias por contactar!</p>
+                <p className="thanks">
+                    ¡Gracias por contactar! <br></br>Muy pronto recibirá una
+                    respuesta.
+                </p>
             )}
             {!state.succeeded && (
                 <>

@@ -319,6 +319,8 @@
     .my-descr {
         font-size: 16px;
         padding: 0 150px 0 150px;
+        width: 75%;
+        text-align: center;
     }
     .about-content {
         padding: 0 0 100px 50px;

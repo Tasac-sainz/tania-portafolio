@@ -17,7 +17,7 @@ const AboutComponent = () => {
                 <div className="my-descr">
                     <h2 className="title-about-home">
                         <Link to="/about">
-                            <i>¿Quién es Fenix?</i>
+                            <i>¿Qué es Fenix Web Solutions?</i>
                         </Link>
                     </h2>
                     <p className="green-text">
@@ -27,11 +27,12 @@ const AboutComponent = () => {
                         </strong>
                     </p>
                     <p>
-                        No sólo programo tu web: entiendo cómo piensa tu cliente
-                        ideal. <br></br>
-                        Con más de 15 años de experiencia en psicología, aplico
-                        principios de comportamiento y diseño UX para que las
-                        visitas que entran a tu web no se vayan sin contactarte.
+                        No sólo programamos tu web: también entendemos cómo
+                        piensa tu cliente ideal. <br></br>
+                        Con más de 15 años de experiencia en psicología,
+                        aplicamos principios de comportamiento y diseño UX para
+                        que las visitas que entran a tu web no se vayan sin
+                        contactarte.
                     </p>
                     Visita {""}
                     <Link to="/projects" className="text-link">

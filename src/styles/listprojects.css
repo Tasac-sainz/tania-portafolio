@@ -1,6 +1,6 @@
 .project-title {
     margin: 0 0 20px 30px;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .scroll-container {
@@ -179,7 +179,7 @@
     }
     .project-title {
         margin: 0 0 20px 100px;
-        font-size: 30px;
+        font-size: 1.5em;
     }
     .proj-img {
         width: 50%;
