@@ -32,7 +32,7 @@ const ServicesComponent = () => {
                         </strong>
                     </p>
                     <p>
-                        No te preocupes, no te dejo sol@. Analizo el
+                        No te preocupes, no te dejamos sol@. Analizo el
                         comportamiento de tus clientes y optimizo tu web para
                         que siempre esté al día y siga aumentando tu conversión
                         (estadísticas de uso y visitas con GA4 y Clarity para
