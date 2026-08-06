@@ -37,7 +37,7 @@ const ServicesComponent = () => {
                         que siempre esté al día y siga aumentando tu conversión
                         (estadísticas de uso y visitas con GA4 y Clarity para
                         analizar los mapas de calor, dead clicks, rage clicks,
-                        etc).
+                        etc.).
                     </p>
                 </p>
             </div>
