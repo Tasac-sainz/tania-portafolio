@@ -1,0 +1,120 @@
+/* ==========================================
+   1. REGULARES / GLOBAL
+   ========================================== */
+body,
+#root {
+    overflow-x: hidden;
+}
+
+/* ==========================================
+   2. MOBILE FIRST (BASE)
+   ========================================== */
+.services-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Tarjeta individual */
+.service-item {
+    width: 80%;
+    max-width: 320px;
+    height: 150px;
+    perspective: 1000px;
+}
+
+/* Contenedor que rota */
+.service-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+/* Activación del giro */
+.service-item:hover .service-inner,
+.service-item:active .service-inner {
+    transform: rotateY(180deg);
+}
+
+/* Caras frontal y trasera */
+.service-front,
+.service-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(46, 45, 45, 0.2);
+}
+
+/* Cara Frontal */
+.service-front {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.service-img {
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 16px;
+    border-radius: 50px;
+}
+
+.service-front h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Cara Trasera */
+.service-back {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    transform: rotateY(180deg);
+}
+
+.service-back p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* ==========================================
+   3. TABLET & DESKTOP (MEDIA QUERY)
+   ========================================== */
+@media (min-width: 768px) {
+    .services-contain {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .service-item {
+        width: 280px;
+        height: 230px;
+    }
+    .service-img {
+        width: 120px;
+        height: auto;
+        border-radius: 30px;
+    }
+}

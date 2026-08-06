@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Icons from "../components/Icons";
 import ServicesComp from "../components/ServicesComponent";
+import ServicesIcon from "../components/ServicesIcon";
 import AboutComp from "../components/AboutComponent";
 import ProjectsComp from "../components/ProjectsComponent";
 import Footer from "../components/Footer";
@@ -23,6 +24,7 @@ const Home = () => {
             />
             <Icons />
             <ServicesComp />
+            <ServicesIcon />
             <AboutComp />
             <ProjectsComp />
             <BtnContact />
