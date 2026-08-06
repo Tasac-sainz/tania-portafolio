@@ -48,9 +48,9 @@ const About = () => {
                         tu web esté siempre al día y en continua mejora.{" "}
                         <br></br>
                     </p>
-                    Visita {""}
+                    Visita mis{""}
                     <Link to="/projects" className="text-link">
-                        mis proyectos
+                        proyectos
                     </Link>{" "}
                     {""}y verás todo lo que podemos hacer; Tú pones la idea y
                     yo, tu web. {""}
