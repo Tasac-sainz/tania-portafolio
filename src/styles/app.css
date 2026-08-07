@@ -129,7 +129,7 @@ p {
     text-decoration: none;
     color: black;
     font-family: "Jost", sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
 }
 .burger-nav {
@@ -193,12 +193,13 @@ p {
     margin: 0;
     padding: 0 20px 0 20px;
     color: rgb(65, 64, 64);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
 }
 .p-footer {
     margin: 0;
     padding: 10px;
+    font-size: 15px;
 }
 .a-footer {
     color: rgb(65, 64, 64);
@@ -276,7 +277,7 @@ p {
         text-decoration: none;
         color: black;
         font-family: "Jost", sans-serif;
-        font-size: 15px;
+        font-size: 19px;
     }
     .burger {
         display: none;
@@ -310,6 +311,7 @@ p {
     }
     .icon-text {
         align-self: center;
+        font-size: 20px;
     }
 
     .intro_div {
@@ -342,5 +344,11 @@ p {
         display: flex;
         height: 500px;
         width: 100%;
+    }
+    .footer {
+        font-size: 19px;
+    }
+    .p-footer {
+        font-size: 19px;
     }
 }
