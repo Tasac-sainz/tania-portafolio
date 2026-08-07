@@ -40,9 +40,10 @@ const ServicesIcon = () => {
                     </div>
                     <div className="service-back">
                         <p>
-                            Servicio completo: incluye diseño inicial,
-                            mantenimiento y optimización para mejorar la
-                            experiencia del usuario y aumentar las conversiones.
+                            Servicio <strong>recomendado</strong>: incluye
+                            diseño inicial, mantenimiento y optimización
+                            periódica para mejorar la experiencia de usuario y
+                            aumentar tus clientes (conversiones).
                         </p>
                     </div>
                 </div>
@@ -62,8 +63,9 @@ const ServicesIcon = () => {
                     <div className="service-back">
                         <p>
                             Si ya tienes tu web, te ayudamos a optimizarla y
-                            analizamos su rendimiento para mejorar la
-                            experiencia del usuario y aumentar las conversiones.
+                            analizamos su rendimiento para introducir los
+                            cambios necesrios para que tus visitas se conviertan
+                            en clientes.
                         </p>
                     </div>
                 </div>

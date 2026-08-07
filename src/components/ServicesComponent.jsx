@@ -34,10 +34,10 @@ const ServicesComponent = () => {
                     <p>
                         No te preocupes, no te dejamos sol@. Analizamos el
                         comportamiento de tus clientes y optimizamos tu web para
-                        que siempre esté al día y siga aumentando tu conversión
-                        (estadísticas de uso y visitas con GA4 y Clarity para
-                        analizar los mapas de calor, dead clicks, rage clicks,
-                        etc.).
+                        que siempre esté al día y siga transformando las visitas
+                        en contactos reales. (estadísticas de uso y visitas con
+                        GA4 y Clarity para analizar los mapas de calor, dead
+                        clicks, rage clicks, etc.).
                     </p>
                 </p>
             </div>
