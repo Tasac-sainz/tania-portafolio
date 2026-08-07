@@ -34,15 +34,17 @@ const AboutComponent = () => {
                         que las visitas que entran a tu web no se vayan sin
                         contactarte.
                     </p>
-                    Visita los {""}
-                    <Link to="/projects" className="text-link">
-                        proyectos
-                    </Link>{" "}
-                    {""}y verás todo lo que podemos hacer; Tú pones la idea y
-                    yo, tu web. {""}
-                    <Link to="/contact" className="text-link">
-                        ¿Hablamos?
-                    </Link>
+                    <p>
+                        Visita los {""}
+                        <Link to="/projects" className="text-link">
+                            proyectos
+                        </Link>{" "}
+                        {""}y verás todo lo que podemos hacer; Tú pones la idea
+                        y yo, tu web. {""}
+                        <Link to="/contact" className="text-link">
+                            ¿Hablamos?
+                        </Link>
+                    </p>
                 </div>
             </div>
         </>
