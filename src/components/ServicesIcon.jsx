@@ -43,7 +43,8 @@ const ServicesIcon = () => {
                             Servicio <strong>recomendado</strong>: incluye
                             diseño inicial, mantenimiento y optimización
                             periódica para mejorar la experiencia de usuario y
-                            aumentar tus clientes (conversiones).
+                            aumentar tus clientes (conversiones) a través de GA4
+                            y Clarity.
                         </p>
                     </div>
                 </div>
@@ -64,8 +65,8 @@ const ServicesIcon = () => {
                         <p>
                             Si ya tienes tu web, te ayudamos a optimizarla y
                             analizamos su rendimiento para introducir los
-                            cambios necesrios para que tus visitas se conviertan
-                            en clientes.
+                            cambios necesarios para que tus visitas se
+                            conviertan en clientes.
                         </p>
                     </div>
                 </div>

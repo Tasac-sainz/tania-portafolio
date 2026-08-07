@@ -1,3 +1,7 @@
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
 /* contenedor */
 .background {
     position: fixed;
@@ -82,7 +86,7 @@
     font-family: "Jost";
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 0;
@@ -140,7 +144,7 @@
 }
 .intro_div {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     width: 75%;
     margin: 0 auto;
@@ -152,7 +156,6 @@
     justify-content: space-around;
     gap: 20px;
     text-align: center;
-    font-size: 12px;
     border-radius: 80px;
     position: relative;
     z-index: 10;
@@ -164,6 +167,7 @@
 }
 .icon-text {
     margin: 0;
+    font-size: 15px;
 }
 .projects-text {
     text-align: center;
@@ -222,7 +226,7 @@
     align-self: center;
     text-align: center;
     line-height: 32px;
-    font-size: 14px;
+    /* font-size: 14px; */
     white-space: normal;
 }
 .hidden-in-responsive {
@@ -290,7 +294,7 @@
     }
     .icons-contain {
         padding: 20px;
-        font-size: 16px;
+        font-size: 18px;
         margin: 80px;
         margin-top: 50px;
         gap: 60px;
@@ -309,7 +313,7 @@
     }
 
     .intro_div {
-        font-size: 16px;
+        /* font-size: 16px; */
         margin-bottom: 50px;
     }
     .profile-pic {
@@ -319,7 +323,7 @@
         margin-left: 60px;
     }
     .my-descr {
-        font-size: 16px;
+        /* font-size: 16px; */
         padding: 0 150px 0 150px;
         width: 75%;
         text-align: center;

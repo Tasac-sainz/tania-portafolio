@@ -61,7 +61,9 @@ const Header = () => {
                 </a>
             </nav>
             <h1 className="web-title">Fenix Web Solutions</h1>
-            <h2 className="web-subtitle">Tu página web, sin complicaciones</h2>
+            <h2 className="web-subtitle">
+                <strong>Tu página web, sin complicaciones</strong>
+            </h2>
         </>
     );
 };

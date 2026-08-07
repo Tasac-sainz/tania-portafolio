@@ -38,21 +38,19 @@ const About = () => {
                             .
                         </p>{" "}
                         <br></br>
-                        <br></br>
                         Impulsar tu negocio y ayudarte a conseguir tus objetivos
                         es mi prioridad.
                         <br></br>{" "}
                     </p>
                     <p className="about-tech">
-                        Utilizamos tecnologías modernas de desarrollo web para
-                        que tu web se adapte a cualquier dispositivo, mejorando
-                        así la experiencia del usuario, lo que aumenta las
+                        Utilizamos tecnologías modernas de desarrollo para que
+                        tu web se adapte a cualquier dispositivo, mejorando así
+                        la experiencia de usuario, lo que aumenta las
                         posibilidades de que tus visitantes se conviertan en
                         clientes. <br></br>
-                        Con GA4 y otras herramientas de analítica web,
-                        monitorizamos el comportamiento de tus clientes para que
-                        tu web esté siempre al día y en continua mejora.{" "}
-                        <br></br>
+                        Aplicamos herramientas de analítica web y monitorización
+                        de comportamiento de usuarios para que tu web esté
+                        siempre actualizada y en continua mejora. <br></br>
                     </p>
                     Visita mis{" "}
                     <Link to="/projects" className="text-link">

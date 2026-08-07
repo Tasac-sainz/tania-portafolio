@@ -25,9 +25,9 @@ const Contact = () => {
                             <i>Fenix Web Solutions</i>
                         </strong>{" "}
                         {""}
-                        estamos para ayudarte a diseñar la web que tu proyecto
-                        necesita, envíanos tus dudas, propuestas, etc., y
-                        enseguida nos pondremos en contacto...
+                        estamos para ayudarte a diseñar y optimizar la web que
+                        tu proyecto necesita, envíanos tus ideas y enseguida nos
+                        pondremos en contacto.
                     </p>
 
                     <form onSubmit={handleSubmit} className="contact-form">
