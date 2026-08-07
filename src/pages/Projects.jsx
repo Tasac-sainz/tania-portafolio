@@ -11,10 +11,11 @@ const Projects = () => {
             <Header />
             <p className="projects-text">
                 He seleccionado algunos de mis proyectos más destacados para que
-                puedas ver mi trabajo. Algunos son proyectos personales que me
-                han ayudado a crecer como desarrolladora y otros son trabajos
-                profesionales para mis clientes. ¿Tu web será la próxima en
-                nuestro <i>escaparate</i>?
+                puedas conocer mi forma de trabajar. <br></br>
+                <br></br>
+                Encontrarás tanto proyectos personales que me han ayudado a
+                crecer como desarrolladora, como trabajos realizados para mis
+                clientes. ¿Tu web será la próxima en nuestro <i>escaparate</i>?
             </p>
             <ListProjects />
             <BtnContact />
