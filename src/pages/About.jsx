@@ -52,15 +52,17 @@ const About = () => {
                         de comportamiento de usuarios para que tu web esté
                         siempre actualizada y en continua mejora. <br></br>
                     </p>
-                    Visita mis{" "}
-                    <Link to="/projects" className="text-link">
-                        proyectos
-                    </Link>{" "}
-                    {""}y verás todo lo que podemos hacer; Tú pones la idea y
-                    yo, tu web. {""}
-                    <Link to="/contact" className="text-link">
-                        ¿Hablamos?
-                    </Link>
+                    <p>
+                        Visita mis{" "}
+                        <Link to="/projects" className="text-link">
+                            proyectos
+                        </Link>{" "}
+                        {""}y verás todo lo que podemos hacer; Tú pones la idea
+                        y yo, tu web. {""}
+                        <Link to="/contact" className="text-link">
+                            ¿Hablamos?
+                        </Link>
+                    </p>
                 </div>
             </div>
 
