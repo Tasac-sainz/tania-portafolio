@@ -63,7 +63,7 @@ const ListProjects = () => {
                 "Web informativa realizada con Vanilla JavaScript puro, con consumo de API y enlaces a otras páginas web de interés.",
             features:
                 "Formulario de contacto, buscador de razas de perros con descripciones de carácter e imágenes, generador de imágenes de gatos a través de una API.",
-            techs: ["js", "css", "api"],
+            techs: ["js", "css", "api", "uxui"],
             web: "https://tasac-sainz.github.io/somosfamilia/",
             repo: "https://github.com/Tasac-sainz/somosfamilia",
             pic: FamiliaImg,
@@ -75,7 +75,7 @@ const ListProjects = () => {
                 "Web de servicios de belleza desarrollada con WordPress y diseño responsive, apto para el uso de distintos dispositivos. Con animaciones y efectos de transición.",
             features:
                 "Formulario de contacto, galería de imágenes, sección de servicios, sección de reseñas, sección de contacto con mapa, páginas de aviso legal, política de cookies y política de privacidad.",
-            techs: ["wp", "css"],
+            techs: ["wp", "css", "uxui"],
             web: "https://beatrizbeautycoach.com/",
             repo: "https://github.com/Tasac-sainz",
             pic: BeautycoachImg,
@@ -87,7 +87,7 @@ const ListProjects = () => {
                 "Diseño y programación de web de ecommerce desarrollada con JavaScript puro con diseño responsive, apto para el uso de distintos dispositivos.",
             features:
                 "Productos de API Rest, opción de búsqueda y reset, gestión completa de carrrito de compra (añadir, aumentar, disminuir, vaciar...), suma de importe total, almacenamiento local del cliente...",
-            techs: ["js", "api", "sass", "css"],
+            techs: ["js", "api", "sass", "css", "uxui"],
             web: "https://tasac-sainz.github.io/tienda-online-all-for-you/",
             repo: "https://github.com/Tasac-sainz/tienda-online-all-for-you",
             pic: EcomImg,
@@ -99,7 +99,7 @@ const ListProjects = () => {
                 "Diseño y programación desde cero de esta potencial plataforma web con recetas familiares en las que los usuarios pueden registrarse, añadir nuevas recetas y consultar sus propias recetas desde cualquier lugar del mundo. Desarrollada con React y NodeJS.",
             features:
                 "Registro e inicio de sesión, creacción y consulta de recetas, almacenamiento local de usuario.",
-            techs: ["react", "node", "postman", "mysql", "css"],
+            techs: ["react", "node", "postman", "mysql", "css", "uxui"],
             web: "https://tasac-sainz.github.io/recetas-four-for-love/",
             repo: "https://github.com/Tasac-sainz/recetas-four-for-love",
             pic: RecipesImg,
@@ -111,7 +111,16 @@ const ListProjects = () => {
                 "Web de blog tecnológico desarrollada con React y NodeJS; a través de una Base de Datos MySQL, se sirven las noticias de la Base de Datos al frontend y cuenta con un widget de clima que gracias a un servicio API, ofrece la temperatura y clima en la ubicación actual además de permitir la búsqueda del clima en cualquier ciudad del mundo.",
             features:
                 "Búsqueda del clima en cualquier ciudad del mundo y obtención de información meteorológica en tiempo real, consulta de las noticas publicadas en el blog.",
-            techs: ["react", "node", "postman", "mysql", "css", "api", "js"],
+            techs: [
+                "react",
+                "node",
+                "postman",
+                "mysql",
+                "css",
+                "api",
+                "js",
+                "uxui",
+            ],
             web: "https://tasac-sainz.github.io/techtronic_blog/",
             repo: "https://github.com/Tasac-sainz/techtronic_blog",
             pic: TechtronicImg,
@@ -123,7 +132,7 @@ const ListProjects = () => {
                 "Proyecto Full Stack para publicar proyectos de desarrollo web y darles visibilidad añadiendo imágenes, tecnologías, descripción y datos de autoría, desarrollada con React y NodeJS, despliegue con Render.com",
             features:
                 "Publicación de proyecto, consulta de listado de proyectos, vista de detalle con enlaces a la demo del proyecto y al perfil de GitHub de su autor/a.",
-            techs: ["react", "node", "postman", "mysql", "css"],
+            techs: ["react", "node", "postman", "mysql", "css", "uxui"],
             web: "https://cool-projects.onrender.com",
             repo: "https://github.com/Tasac-sainz/cool-projects",
             pic: CoolImg,
