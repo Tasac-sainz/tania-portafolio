@@ -12,6 +12,10 @@ import React from "../images/react-icon.png";
 import CSSicon from "../images/css-icon.png";
 import MySQL from "../images/mysql-icon.png";
 import WordPress from "../images/wordpress-icon.png";
+import uxui from "../images/UX_UI-icon.png";
+import cro from "../images/cro-icon.png";
+import Ga from "../images/ga4-icon.png";
+import clarity from "../images/clarity-icon.png";
 import CoolImg from "../images/cool-projects.png";
 import EcomImg from "../images/ecommerce-page.png";
 import HarryImg from "../images/harry-page.png";
@@ -19,6 +23,7 @@ import RecipesImg from "../images/recipes-page.png";
 import TechtronicImg from "../images/techtronic-page.png";
 import BeautycoachImg from "../images/beautycoach-page.png";
 import FamiliaImg from "../images/somos_familia.png";
+import CanineImg from "../images/canine-service-page.png";
 import "../styles/listprojects.css";
 
 const ListProjects = () => {
@@ -32,12 +37,28 @@ const ListProjects = () => {
         css: CSSicon,
         mysql: MySQL,
         wp: WordPress,
+        uxui: uxui,
+        cro: cro,
+        ga: Ga,
+        clarity: clarity,
     };
 
     const projects = [
         {
+            nameproj: "Canine-service",
+            resume: "Auditoria CRO y rediseño web para aumentar conversiones y mejorar la experiencia de usuario",
+            description:
+                "Realizada con WordPress priorizando el diseño UX/UI responsive, apto para el uso de distintos dispositivos. Auditoría de la funcionalidad y usabilidad de la web con Google Analytics y Clarity, rediseño de la estructura y optimización para el aumento de conversiones y mejora de la experiencia de usuario.",
+            features:
+                "Formulario de contacto, videos incrustrados, secciones de: servicios, reseñas, videos y contacto con integración en Calendly para agendamiento de citas con pop-ups, faq y páginas de aviso legal, política de cookies y política de privacidad.",
+            techs: ["wp", "css", "ga", "clarity", "cro", "uxui"],
+            web: "https://canine-service.com/adiestramiento-presencial_v-2/",
+            repo: "https://github.com/Tasac-sainz",
+            pic: CanineImg,
+        },
+        {
             nameproj: "Somos Familia",
-            resume: "Diseño completo de web divulgativa sobre perros y gatos y servicios veterinarios en la zona norte de Madrid",
+            resume: "Diseño completo de web divulgativa con uso de API y enlaces a otras páginas web de interés",
             description:
                 "Web informativa realizada con Vanilla JavaScript puro, con consumo de API y enlaces a otras páginas web de interés.",
             features:
@@ -56,7 +77,7 @@ const ListProjects = () => {
                 "Formulario de contacto, galería de imágenes, sección de servicios, sección de reseñas, sección de contacto con mapa, páginas de aviso legal, política de cookies y política de privacidad.",
             techs: ["wp", "css"],
             web: "https://beatrizbeautycoach.com/",
-            repo: "",
+            repo: "https://github.com/Tasac-sainz",
             pic: BeautycoachImg,
         },
         {
